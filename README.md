@@ -1,7 +1,7 @@
 # 📂 Portfolio-Projects
 
 Welcome to **Portfolio-Projects**, a collection of real-world end-to-end projects by Saurabh Singh.  
-This repository contains multiple projects demonstrating applied Python, AI/ML, Deep Learning, LLMs, and more.
+This repository contains multiple projects that demonstrate the application of Python, AI/ML, Deep Learning, LLMs, and more.
 
 Each project has its own folder with:
 - Full source code
@@ -47,4 +47,4 @@ Refer to each project's folder for individual setup instructions.
 
 ## 👨‍💻 Author
 **Saurabh Singh**  
-🔗 [LinkedIn](#) | 🔗 [GitHub](#)
+🔗 [LinkedIn](https://www.linkedin.com/in/saurabh-singh-621388182/) | 🔗 [GitHub](#)
