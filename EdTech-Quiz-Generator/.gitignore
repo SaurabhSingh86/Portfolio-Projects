@@ -1,0 +1,14 @@
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+ed_env/
+
+# IDE files
+.vscode/
+.idea/
