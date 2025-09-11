@@ -99,6 +99,23 @@ streamlit run app.py
 
 ## 📸 Screenshots / Demo
 
+**Version 1**
+
+_Step 1_
+![alt text](<UI-Images/Upload Document.png>)
+
+_Step 2_
+![alt text](<UI-Images/Generate Quiz 1.png>)
+
+_Step 3_
+![alt text](<UI-Images/Generate Quiz 2.png>)
+
+_Step 4_
+![alt text](<UI-Images/Generate Quiz 3.png>)
+
+_Step 5_
+![alt text](<UI-Images/Generate Quiz Download QUIZ DOCX (With Answer).png>)
+
 ---
 
 ## 📊 Future Enhancements
