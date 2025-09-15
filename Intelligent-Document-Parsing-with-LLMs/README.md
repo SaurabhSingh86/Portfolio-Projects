@@ -99,7 +99,7 @@ _Step 1_
 ![alt text](<UI-Images/UI Home.png>)
 
 _Step 2_
-![alt text](<UI-Images\Upload Aadhar.png>)
+![alt text](<UI-Images/Upload Aadhar.png>)
 
 _Step 3_ (Optional PAN or Passport)
 ![alt text](<UI-Images/Upload Passport.png>)
