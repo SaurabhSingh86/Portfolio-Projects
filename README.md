@@ -4,6 +4,7 @@ Welcome to **Portfolio-Projects**, a collection of real-world end-to-end project
 This repository contains multiple projects that demonstrate the application of Python, AI/ML, Deep Learning, LLMs, and more.
 
 Each project has its own folder with:
+
 - Full source code
 - Project-specific README
 - Sample datasets or inputs
@@ -14,23 +15,26 @@ Each project has its own folder with:
 
 ## 🚀 Projects Included
 
-1. **Pneumonia Detection using Deep Learning**  
-   - Detect pneumonia from chest X-rays using CNN models  
-   - Includes model files, HTML report, and demo video  
+1. **Pneumonia Detection using Deep Learning**
 
-2. **EdTech Quiz Generator & Q&A System**  
-   - Generates MCQs from course material using LLMs  
-   - Interactive Streamlit app with PDF/DOCX export  
+   - Detect pneumonia from chest X-rays using CNN models
+   - Includes model files, HTML report, and demo video
 
-3. **Document Information Extraction**  
-   - Extracts key information from Aadhar, PAN, Passport  
-   - Automated pipeline with Python & OCR  
+2. **EdTech Quiz Generator & Q&A System**
 
-*(More projects to be added over time)*
+   - Generates MCQs from course material using LLMs
+   - Interactive Streamlit app with PDF/DOCX export
+
+3. **Intelligent Document Parsing with LLMs**
+   - Extracts key information from Aadhar, PAN, Passport
+   - Automated pipeline with Python & OCR
+
+_(More projects to be added over time)_
 
 ---
 
 ## 🛠️ Tech Stack
+
 - Python 3.10+
 - Streamlit
 - LangChain / LLM APIs
@@ -41,10 +45,12 @@ Each project has its own folder with:
 ---
 
 ## ⚙️ Setup
+
 Refer to each project's folder for individual setup instructions.
 
 ---
 
 ## 👨‍💻 Author
+
 **Saurabh Singh**  
 🔗 [LinkedIn](https://www.linkedin.com/in/saurabh-singh-621388182/) | 🔗 [GitHub](#)
