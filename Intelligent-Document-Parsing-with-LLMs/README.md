@@ -60,15 +60,17 @@ AI-Employee-Doc-Parser/
 
 ```bash
 git clone https://github.com/SaurabhSingh86/Portfolio-Projects.git
-cd Portfolio-Projects/EdTech-Quiz-Generator
+cd Portfolio-Projects/Intelligent-Document-Parsing-with-LLMs
 ```
 
 2. **Create a virtual environment & activate it:**
 
 ```bash
 python -m venv ed_env
+
 # Linux / Mac
 source ed_env/bin/activate
+
 # Windows
 ed_env\Scripts\activate
 
@@ -83,7 +85,7 @@ pip install -r requirements.txt
 4. **Run the app:**
 
 ```bash
-streamlit run app.py
+streamlit run form_ui.py
 ```
 
 ---
@@ -92,20 +94,20 @@ streamlit run app.py
 
 **Version 1**
 
-<!-- _Step 1_
-![alt text](<UI-Images/Upload Document.png>)
+_Step 1_
+![alt text](<UI-Images/UI Home.png>)
 
 _Step 2_
-![alt text](<UI-Images/Generate Quiz 1.png>)
+![alt text](<UI-Images\Upload Aadhar.png>)
 
-_Step 3_
-![alt text](<UI-Images/Generate Quiz 2.png>)
+_Step 3_ (Optional PAN or Passport)
+![alt text](<UI-Images/Upload Passport.png>)
 
 _Step 4_
-![alt text](<UI-Images/Generate Quiz 3.png>)
+![alt text](<UI-Images/Save Into Database.png>)
 
 _Step 5_
-![alt text](<UI-Images/Generate Quiz Download QUIZ DOCX (With Answer).png>) -->
+![alt text](<UI-Images/Confirm Save Into Database.png>)
 
 ---
 
@@ -127,6 +129,7 @@ _Step 5_
   "dob": "1995-08-20",
   "pan_number": "ABCDE1234F"
 }
+```
 
 ---
 
@@ -144,4 +147,7 @@ _Step 5_
 🔗 [LinkedIn](https://www.linkedin.com/in/saurabh-singh-621388182/) |
 [Project Link](https://github.com/SaurabhSingh86) |
 YouTube
+
+```
+
 ```
