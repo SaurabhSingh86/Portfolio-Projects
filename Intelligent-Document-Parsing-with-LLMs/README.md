@@ -86,6 +86,7 @@ pip install -r requirements.txt
 
 ```bash
 streamlit run form_ui.py
+uvicorn fast_api:app --port 8003
 ```
 
 ---
