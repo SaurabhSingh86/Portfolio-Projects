@@ -24,6 +24,8 @@ This project enables **automated, accurate, and scalable document data extractio
 - Fast API
 - OCR (Tesseract, Pyzbar, OpenCV)
 - Google Gemini LLM API
+- MySQL Database
+- python-dotenv (Config)
 
 ---
 
@@ -82,14 +84,29 @@ ed_env\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. **Run the app:**
+4. **Setup .env file:**
+   Create a .env file inside part3_doc_ai/ with:
 
 ```bash
+GOOGLE_API_KEY=your_google_api_key
+DB_HOST="127.0.0.1"
+DB_PORT="3306"
+DB_USER="root"
+DB_PASSWORD="yourpassword" #"123456"
+DB_NAME="employee_mgmt"
+```
+
+5. **Run the app:**
+
+```bash
+# Run Streamlit UI
 streamlit run form_ui.py
+
+# Run FastAPI backend
 uvicorn fast_api:app --port 8003
 ```
 
----
+## Then open http://localhost:8501/ in browser.
 
 ## 📸 Screenshots / Demo
 
