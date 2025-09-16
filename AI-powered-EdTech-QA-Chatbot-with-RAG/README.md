@@ -67,8 +67,10 @@ cd Portfolio-Projects/EdTech-Quiz-Generator
 
 ```bash
 python -m venv ed_env
+
 # Linux / Mac
 source ed_env/bin/activate
+
 # Windows
 ed_env\Scripts\activate
 
