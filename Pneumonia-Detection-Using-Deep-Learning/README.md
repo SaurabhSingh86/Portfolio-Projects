@@ -180,20 +180,35 @@ uvicorn fast_api:app --port 8003
 
 **Version 1**
 
-_Step 1_
-![alt text](<UI-Images/UI Home.png>)
+**Full UI**
+![alt text](UI-Images/FullUI.png)
 
-_Step 2_
-![alt text](<UI-Images/Upload Aadhar.png>)
+_Step 1_ : Select The Model
+![alt text](UI-Images/Step1.png)
 
-_Step 3_ (Optional PAN or Passport)
-![alt text](<UI-Images/Upload Passport.png>)
+_Step 2_ : Upload X-ray image for test
+![alt text](UI-Images/Step2.png)
 
-_Step 4_
-![alt text](<UI-Images/Save Into Database.png>)
+_Step 3_ Adjust Threshold if needed (by default 0.5)
+![alt text](UI-Images/Step3.png)
 
-_Step 5_
-![alt text](<UI-Images/Confirm Save Into Database.png>)
+_Step 4_ : Click on Predict
+![alt text](UI-Images/Step4.png)
+
+_Step 5_ : Prediction Result show with Color Coaded
+![alt text](UI-Images/Step5.png)
+
+_Step 6_ : After User Review Click on Submit Feedback
+![alt text](UI-Images/Step6.png)
+
+_Step 7_ : Reslt Table & Model-wise Accuracy Updated Automatically
+![alt text](UI-Images/Step7.png)
+
+_Step 5_ : Repeat above process & test multiple image with multiple models
+![alt text](UI-Images/Step8.png)
+
+_Step 5_ : Download as CSV
+![alt text](UI-Images/Step9.png)
 
 ---
 
