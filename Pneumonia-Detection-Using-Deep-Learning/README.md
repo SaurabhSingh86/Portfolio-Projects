@@ -103,14 +103,14 @@ This project addresses this critical challenge by developing an **AI-powered pne
 
 ## ⚙️ Setup Instructions
 
-### 1. **Clone the repository:**
+### **1. Clone the repository:**
 
 ```bash
 git clone https://github.com/SaurabhSingh86/pneumonia-detection-deep-learning.git
 cd pneumonia-detection-deep-learning
 ```
 
-### 2. **Create a virtual environment & activate it:**
+### **2. Create a virtual environment & activate it:**
 
 ```bash
 python -m venv med_env
@@ -129,8 +129,8 @@ med_env\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. **Download the dataset:**
-   Create a .env file inside part3_doc_ai/ with:
+**4. Download the dataset:**
+Create a .env file inside part3_doc_ai/ with:
 
 ```bash
 # Download from Kaggle:
@@ -146,7 +146,7 @@ pip install -r requirements.txt
 # data/test/PNEUMONIA/
 ```
 
-### 5. ** Download pre-trained models:**
+### **5. Download pre-trained models:**
 
 ```bash
 # Models are too large for GitHub (>100MB each)
@@ -154,7 +154,7 @@ pip install -r requirements.txt
 # Place all .h5 and .pt files in models/ directory
 ```
 
-### 6. **Setup .env file (optional):**
+### **6. Setup .env file (optional):**
 
 ```bash
 # Run Streamlit UI
@@ -164,7 +164,7 @@ streamlit run form_ui.py
 uvicorn fast_api:app --port 8003
 ```
 
-### 6. **Run the application:**
+### **6. Run the application:**
 
 ```bash
 # Run Streamlit UI
@@ -174,7 +174,11 @@ streamlit run form_ui.py
 uvicorn fast_api:app --port 8003
 ```
 
-## Then open http://localhost:8501/ in browser.
+### Then open below link in browser.
+
+```
+http://localhost:8501/
+```
 
 ## 📸 Screenshots / Demo
 
@@ -183,62 +187,56 @@ uvicorn fast_api:app --port 8003
 **Full UI**
 ![alt text](UI-Images/FullUI.png)
 
-_Step 1_ : Select The Model
+**_Step 1_ : Select The Model**
 ![alt text](UI-Images/Step1.png)
 
-_Step 2_ : Upload X-ray image for test
+**_Step 2_ : Upload X-ray image for test**
 ![alt text](UI-Images/Step2.png)
 
-_Step 3_ Adjust Threshold if needed (by default 0.5)
+**_Step 3_ Adjust Threshold if needed (by default 0.5)**
 ![alt text](UI-Images/Step3.png)
 
-_Step 4_ : Click on Predict
+**_Step 4_ : Click on Predict**
 ![alt text](UI-Images/Step4.png)
 
-_Step 5_ : Prediction Result show with Color Coaded
+**_Step 5_ : Prediction Result show with Color Coaded**
 ![alt text](UI-Images/Step5.png)
 
-_Step 6_ : After User Review Click on Submit Feedback
+**_Step 6_ : After User Review Click on Submit Feedback**
 ![alt text](UI-Images/Step6.png)
 
-_Step 7_ : Reslt Table & Model-wise Accuracy Updated Automatically
+**_Step 7_ : Result Table & Model-wise Accuracy Updated Automatically**
 ![alt text](UI-Images/Step7.png)
 
-_Step 5_ : Repeat above process & test multiple image with multiple models
+**_Step 8_ : Repeat above process & test multiple image with multiple models**
 ![alt text](UI-Images/Step8.png)
 
-_Step 5_ : Download as CSV
+**_Step 9_ : Download as CSV**
 ![alt text](UI-Images/Step9.png)
 
 ---
 
 ## ⚙️ How It Works
 
-1. Upload document text (Aadhaar, PAN, Passport).
-2. Send to LLM parser (`llm_parser.py`).
-3. LLM extracts **key fields** (Name, DOB, ID Number, etc.).
-4. Returns **structured JSON** for storage or validation.
+1. Select The Model
+2. Upload X-ray image for test
+3. Adjust Threshold if needed (by default 0.5)
+4. Click on Predict
+5. Prediction Result show with Color Coaded (Green: Not Pneumonia & Red: Pneumonia Detection)
+6. After User Review Click on Submit Feedback
+7. Result Table & Model-wise Accuracy Updated Automatically
+8. Repeat above process & test multiple image with multiple models
+9. Download as CSV.
 
 ---
 
 ## 📊 Example Output
 
-```json
-{
-  "document_type": "PAN",
-  "name": "Saurabh Singh",
-  "dob": "1995-08-20",
-  "pan_number": "ABCDE1234F"
-}
-```
+**![alt text](UI-Images/FullUI.png)**
 
 ---
 
 ## 📊 Future Enhancements
-
-- Add support for additional IDs (e.g., Driving License, Voter ID)
-- Improve error handling & fallback logic
-- Deploy as a web-based or mobile-ready API service
 
 ---
 
@@ -247,8 +245,4 @@ _Step 5_ : Download as CSV
 **Saurabh Singh**
 🔗 [LinkedIn](https://www.linkedin.com/in/saurabh-singh-621388182/) |
 [Project Link](https://github.com/SaurabhSingh86) |
-YouTube
-
-```
-
-```
+[YouTube](https://www.youtube.com/@SaurabhSinghAIML)
