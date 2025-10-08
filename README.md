@@ -17,7 +17,7 @@ Each project has its own folder with:
 
 1. **Pneumonia Detection using Deep Learning**
 
-   - Detect pneumonia from chest X-rays using CNN models
+   - Detect pneumonia from chest X-rays using CNN models, Pre-Trained Models & YoloV5.
    - Includes model files, HTML report, and demo video
 
 2. **EdTech Quiz Generator & Q&A System**
@@ -53,4 +53,4 @@ Refer to each project's folder for individual setup instructions.
 ## 👨‍💻 Author
 
 **Saurabh Singh**  
-🔗 [LinkedIn](https://www.linkedin.com/in/saurabh-singh-621388182/) | 🔗 [GitHub](#)
+🔗 [LinkedIn](https://www.linkedin.com/in/saurabh-singh-621388182/) | [GitHub](https://github.com/SaurabhSingh86) | [Youtube](https://www.youtube.com/@SaurabhSinghAIML)
