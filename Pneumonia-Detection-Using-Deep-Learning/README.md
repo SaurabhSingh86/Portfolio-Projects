@@ -8,7 +8,7 @@
 
 > An AI-powered pneumonia detection system that compares 6 deep learning models with explainable predictions, real-time inference, and an interactive web interface.
 
-[**🎥 Watch Demo Video**](YOUR_YOUTUBE_LINK) | [**🐙 GitHub Repository**](https://github.com/SaurabhSingh86/pneumonia-detection-deep-learning)
+[**🎥 Watch Demo Video**](https://youtu.be/QM1njWx7o3Q) | [**🐙 GitHub Repository**](https://github.com/SaurabhSingh86/Portfolio-Projects/tree/main/Pneumonia-Detection-Using-Deep-Learning)
 
 ---
 
