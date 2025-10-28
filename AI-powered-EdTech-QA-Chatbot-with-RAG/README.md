@@ -118,6 +118,9 @@ _Step 4_
 _Step 5_
 ![alt text](<UI-Images/Generate Quiz Download QUIZ DOCX (With Answer).png>)
 
+_Step 6_
+![alt text](UI-Images/Reopen.png)
+
 ---
 
 ## 📊 Future Enhancements
